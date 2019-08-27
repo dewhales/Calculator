@@ -1,25 +1,21 @@
-html {
-	background-color: lightgreen;
-}
 body {
 	margin: auto;
 	width: 1000px;
-	background-color: lightblue;
+	background-color: linear-gradient (red, yellow)
 }
 h1, h2 {
 	text-align: center;
 	color: darkblue;
-	font-size: 30pt;
-	border-width: auto;
-	border-color: blue;
-	border-style: solid;
-	border-radius: 30px;
-
+	font-size: 15pt;
+	border: 1px solid blue;
+	border-radius: 20px;
 }
 p, li{
-	margin: 50px;
+	margin: 10px;
 	color: darkblue;
-	font-size: 14pt;
+	font-size: 12pt;
+	letter-spacing: 1px;
+	word-spacing: 2px;
 }
 button {
 	background: white;
@@ -27,6 +23,7 @@ button {
 	text-transform: lowercase;
 	margin-left: 20px;
 	margin-top: 20px;
+	width: 200px;
 }
 a {
 	margin: 50px;
@@ -51,4 +48,9 @@ a {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	word-spacing: 4px;
+}
+
+button:hover {
+	background-color: lightblue;
+	display: pointer;
 }
