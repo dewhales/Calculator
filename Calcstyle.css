@@ -1,0 +1,54 @@
+html {
+	background-color: lightgreen;
+}
+body {
+	margin: auto;
+	width: 1000px;
+	background-color: lightblue;
+}
+h1, h2 {
+	text-align: center;
+	color: darkblue;
+	font-size: 30pt;
+	border-width: auto;
+	border-color: blue;
+	border-style: solid;
+	border-radius: 30px;
+
+}
+p, li{
+	margin: 50px;
+	color: darkblue;
+	font-size: 14pt;
+}
+button {
+	background: white;
+	border-radius: 30px;
+	text-transform: lowercase;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+a {
+	margin: 50px;
+	color: darkblue;
+	font-size: 10pt;
+	display: inline;
+	text-decoration: none;
+}
+.animated {
+	width: 350px;
+	font-weight: bold;
+}
+.animated a {
+	font-size: 20px;
+	text-shadow: 1px 1px 3px lightblue;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+}
+#instructions {
+	color: red;
+	width: 800px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+}

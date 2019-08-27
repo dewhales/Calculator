@@ -1,0 +1,46 @@
+html {
+	background: lightgreen;
+}
+body {
+	margin: auto;
+	width: 700px;
+	background-color: #e8e8e8;
+}
+h1 {
+	text-align: center;
+	color: green;
+	font-size: 30pt;
+	border-width: auto;
+	border-color: lightgreen;
+	border-style: solid;
+	border-radius: 30px;
+	text-shadow: 1px 1px 3px black;
+}
+button {
+	background: white;
+	border-radius: 30px;
+	text-transform: lowercase;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+a {
+	margin: 50px;
+	color: green;
+	font-size: 10pt;
+	display: inline;
+	text-decoration: none;
+}
+.animated {
+	width: 350px;
+	font-weight: bold;
+}
+.animated a {
+	font-size: 20px;
+	text-shadow: 1px 1px 3px lightgreen;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+}
+h3, h4 {
+	padding-left: 20px;
+	color: green;
+}
