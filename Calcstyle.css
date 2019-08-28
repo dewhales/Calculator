@@ -1,7 +1,7 @@
 body {
 	margin: auto;
 	width: 1000px;
-	background-color: linear-gradient (red, yellow)
+	background: linear-gradient(lightgreen, lightyellow);
 }
 h1, h2 {
 	text-align: center;
