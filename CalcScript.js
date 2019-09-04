@@ -74,7 +74,7 @@ function Modulus () {
 function launchCalculator() {
 	alert("Welcome to the Multipurpose Scientific Calculator\n\tNote:\nThis Calculator is Designed by Adewale\n This Calculator is designed to only Add, Subtract, Multiply, Divide, calculate the value of numbers raised to certain 'power' and for Modulus/Remainders.");
 
-	let operator = prompt("Enter the appropriate Symbol from the options below to; 'Add', 'Subtract', 'Multiply', 'Divide', 'power' and 'Modulus/Remaideer', Respectively;\n ' + '   for    Addition\n ' - '    for   Subtraction\n ' * '    for   Multiplication\n ' / '    for   Division\n 'pow'  -   power\n ' % '    for   Modulus");
+	let operator = prompt("Enter the appropriate Symbol from the options below to; 'Add', 'Subtract', 'Multiply', 'Divide', 'calculate value of Numbers power' and 'calculate Modulus/Remaideer', Respectively;\n ' + '   for    Addition\n ' - '    for   Subtraction\n ' * '    for   Multiplication\n ' / '    for   Division\n 'pow'  -   power\n ' % '    for   Modulus");
 
 	if (operator === "+") {
 		Addition ()
@@ -95,7 +95,7 @@ function launchCalculator() {
 		power ()
 		alert ("Thanks for Using my Calculator for power!");
 	} else {
-		alert ("Syntax Error!\n Please 'Refresh page' and try entering any of the symbols provided...\nThanks!!!");
+		alert ("Syntax Error!\n Please click the 'launch calculator' and try entering any of the symbols provided...\nThanks!!!");
 	}
 }
 
