@@ -109,7 +109,7 @@ button.addEventListener('click', launchCalculator);
 
 
 const PI = document.querySelector('#input1').value;
-let answerButton = document.querySelectorAll('button')[4];
+let answerButton = document.querySelector('#input');
 
 /*Calculate Area formular(PI.r2)*/
 const findValueOfArea = () => {
