@@ -16,19 +16,20 @@ h1 {
 	border-radius: 30px;
 	text-shadow: 1px 1px 3px black;
 }
-button {
-	background: white;
-	border-radius: 30px;
-	text-transform: lowercase;
-	margin-left: 20px;
-	margin-top: 20px;
-}
 a {
-	margin: 50px;
+	margin: 20px;
 	color: green;
 	font-size: 10pt;
 	display: inline;
 	text-decoration: none;
+}
+button {
+	background: white;
+	border-radius: 30px;
+	text-transform: lowercase;
+	margin-top: 20px;
+	width: 100px;
+	margin-left: 20px;
 }
 .animated {
 	width: 350px;
